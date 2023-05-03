@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:  0;
+
+}
+header{
+    background-color: #141414;
+    height: 60px;
+}
+header > a{
+    color: #F8F8F8;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    padding: 20px;
+    border-top: 20px;
+
+}
+main{
+    
+    color: white; 
+    font-family: 'Roboto Slab', serif;
+}
+.photo-section{
+    align-items: center;
+}
+.main-itens{
+    background-color: 5B8FB9 ; 
+}
