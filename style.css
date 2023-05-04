@@ -1,29 +1,46 @@
 *{
     margin: 0;
     padding: 0;
-    border:  0;
-
+    border: 0;
 }
 header{
     background-color: #141414;
+    
     height: 60px;
 }
 header > a{
-    color: #F8F8F8;
+    /* color: #be67fe; */
+    color: #5a5959;
     text-decoration: none;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 20px;
     border-top: 20px;
-
 }
 main{
-    
     color: white; 
-    font-family: 'Roboto Slab', serif;
+    background-color: #1b1b1bfd;
 }
-.photo-section{
-    align-items: center;
+#main-section{
+    padding: 20px;
 }
-.main-itens{
-    background-color: 5B8FB9 ; 
+.main-bio {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+.main-summary {
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+}
+.main-itens > h1, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+#education-section{
+    border: 1px solid white;
+    /* border: 1px solid #8539BE; */
+}
+#work-section{
+    border: 1px solid white;
+}
+#certification-section{
+    border: 1px solid white;
 }
