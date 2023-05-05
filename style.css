@@ -3,9 +3,12 @@
     padding: 0;
     border: 0;
 }
+/* something new */
+html{
+    scroll-behavior: smooth;
+}
 header{
     background-color: #141414;
-    
     height: 60px;
 }
 header > a{
@@ -14,12 +17,12 @@ header > a{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     margin: 20px;
+    /* something new */
     transition: color 0.3s ease;
-    cursor: default;
 }
+/* something new */
 header > a:hover{
     color:  whitesmoke;
-    cursor: pointer;
 }
 main{
     color: white; 
@@ -27,7 +30,7 @@ main{
 }
 #main-section{
     padding: 20px;
-    height: 500px;
+    height: 800px;
 }
 .main-bio {
     font-family: 'Montserrat', sans-serif;
