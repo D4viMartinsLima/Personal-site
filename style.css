@@ -13,8 +13,13 @@ header > a{
     color: #5a5959;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
-    padding: 20px;
-    border-top: 20px;
+    margin: 20px;
+    transition: color 0.3s ease;
+    cursor: default;
+}
+header > a:hover{
+    color:  whitesmoke;
+    cursor: pointer;
 }
 main{
     color: white; 
@@ -22,6 +27,7 @@ main{
 }
 #main-section{
     padding: 20px;
+    height: 500px;
 }
 .main-bio {
     font-family: 'Montserrat', sans-serif;
