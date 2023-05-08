@@ -11,18 +11,26 @@ header{
     background-color: #141414;
     height: 60px;
 }
-header > a{
+ nav > div > a{
     /* color: #be67fe; */
     color: #5a5959;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     margin: 20px;
     /* something new */
-    transition: color 0.3s ease;
+    transition: color 0.4s ease;
+    /* display: flex; */
+    /* justify-content: flex-end; */
 }
 /* something new */
-header > a:hover{
+nav> div > a:hover{
     color:  whitesmoke;
+    /* font-size: 19px;  I intend to add this later, need to find a way to make only one of the ancor tags bigger*/
+}
+/* I tried to do this by myself perhaps later Ill change it */
+.menu-item{
+    display: flex;
+    flex-direction: row-reverse;
 }
 main{
     color: white; 
@@ -31,17 +39,39 @@ main{
 #main-section{
     padding: 20px;
     height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-itens > h1, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+.main-itens{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 .main-bio {
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
+    margin: 30px;
+}
+/* Just decided to add a button to downdload the updated CV */
+#button-cv{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #141414;
+    color: rgb(49, 11, 85);
+    
+ 
 }
 .main-summary {
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
-}
-.main-itens > h1, h3{
-    font-family: 'Montserrat', sans-serif;
 }
 #education-section{
     border: 1px solid white;
