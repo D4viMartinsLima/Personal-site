@@ -10,6 +10,8 @@ html{
 header{
     background-color: #141414;
     height: 60px;
+    border-bottom: rgb(49, 11, 85) solid 3px ;
+    box-shadow: 0px 2px 10px 1px rgba(49, 11, 85, 0.8);
 }
  nav > div > a{
     /* color: #be67fe; */
@@ -24,7 +26,7 @@ header{
 }
 /* something new */
 nav> div > a:hover{
-    color:  whitesmoke;
+    color:  rgb(62, 14, 107);
     /* font-size: 19px;  I intend to add this later, need to find a way to make only one of the ancor tags bigger*/
 }
 /* I tried to do this by myself perhaps later Ill change it */
@@ -71,8 +73,12 @@ main{
     border-radius: 20px;
     background-color: #141414;
     color: rgb(49, 11, 85);
-    
- 
+    cursor: pointer;
+}
+/* something new */
+#button-cv:active{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    /* transform: translateY(2px); ainda não entendi o que é isso muito bem */
 }
 .main-summary {
     font-family: 'Montserrat', sans-serif;
