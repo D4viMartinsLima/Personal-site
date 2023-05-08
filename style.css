@@ -59,10 +59,15 @@ main{
     margin: 30px;
 }
 /* Just decided to add a button to downdload the updated CV */
+.main-bio > button{
+    margin: 0px;
+    padding: 0px;
+}
+/* resolver problema de pontas brancas q aparecem no botão, quero deixar ele menor */
 #button-cv{
     font-size: 15px;
     text-decoration: none;
-    padding: 15px;
+    padding: 19px;
     border-radius: 20px;
     background-color: #141414;
     color: rgb(49, 11, 85);
