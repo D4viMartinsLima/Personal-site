@@ -35,30 +35,53 @@ nav> div > a:hover{
     flex-direction: row-reverse;
 }
 main{
-    color: white; 
-    background-color: #1b1b1bfd;
+    color: black; 
 }
 #main-section{
+    color: white;
     padding: 20px;
     height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1b1b1bfd;
+}
+.line{
+    width: 500px;
+    height: 5px;
+    background-color: white;
 }
 .main-itens > h1, h3{
     font-family: 'Montserrat', sans-serif;
+    
+}
+.main-itens > h1{
+  font-size: 80px;
 }
 .main-itens{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 30px;
 
 }
 .main-bio {
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
-    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* something new
+apos adicionar as linhas tive dificuldade de separar os 3 elementos entao tive que fazer uma pesquisa rapida segue a explicação: definimos uma margem direita de 10 pixels para todos os elementos filhos da .main-bio. Em seguida, anulamos essa margem para o último elemento filho, para que não haja espaço extra após ele. */
+
+.main-bio > * {
+    margin-right: 10px;
+}
+
+.main-bio > *:last-child {
+    margin-right: 0;
 }
 /* Just decided to add a button to downdload the updated CV */
 .main-bio > button{
@@ -72,13 +95,17 @@ main{
     padding: 19px;
     border-radius: 20px;
     background-color: #141414;
-    color: rgb(49, 11, 85);
+    color:  #5a5959;
     cursor: pointer;
 }
 /* something new */
 #button-cv:active{
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
     /* transform: translateY(2px); ainda não entendi o que é isso muito bem */
+}
+#button-cv:hover{
+    color: rgb(79, 43, 112);
+    background-color: #201f1f;
 }
 .main-summary {
     font-family: 'Montserrat', sans-serif;
