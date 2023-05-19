@@ -41,45 +41,40 @@ main{
     color: white;
     padding: 20px;
     height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #1b1b1bfd;
 }
 .line{
-    width: 500px;
-    height: 5px;
+    width: 700px;
+    height: 3px;
     background-color: white;
-}
-.main-itens > h1, h3{
-    font-family: 'Montserrat', sans-serif;
-    
-}
-.main-itens > h1{
-  font-size: 80px;
 }
 .main-itens{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 30px;
-
+}
+.main-itens > h1, h3{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Tenho que mudar o tamanho da fonte */
+.main-itens > h1{
+  font-size: 80px;
 }
 .main-bio {
     font-family: 'Montserrat', sans-serif;
-    padding: 20px;
+    padding: 90px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    /* something new */
+    white-space: nowrap;
 }
 /* something new
 apos adicionar as linhas tive dificuldade de separar os 3 elementos entao tive que fazer uma pesquisa rapida segue a explicação: definimos uma margem direita de 10 pixels para todos os elementos filhos da .main-bio. Em seguida, anulamos essa margem para o último elemento filho, para que não haja espaço extra após ele. */
-
 .main-bio > * {
     margin-right: 10px;
 }
-
 .main-bio > *:last-child {
     margin-right: 0;
 }
@@ -90,6 +85,7 @@ apos adicionar as linhas tive dificuldade de separar os 3 elementos entao tive q
 }
 /* resolver problema de pontas brancas q aparecem no botão, quero deixar ele menor */
 #button-cv{
+    margin-top: 4000px;
     font-size: 15px;
     text-decoration: none;
     padding: 19px;
