@@ -17,17 +17,19 @@ header{
     /* color: #be67fe; */
     color: #5a5959;
     text-decoration: none;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     margin: 20px;
     /* something new */
     transition: color 0.4s ease;
-    /* display: flex; */
-    /* justify-content: flex-end; */
+    /* something new */
+    transition: transform 0.4s ease;
+   
 }
 /* something new */
 nav> div > a:hover{
     color:  rgb(62, 14, 107);
-    /* font-size: 19px;  I intend to add this later, need to find a way to make only one of the ancor tags bigger*/
+    transform: scale(1.2);
 }
 /* I tried to do this by myself perhaps later Ill change it */
 .menu-item{
@@ -40,7 +42,7 @@ main{
 #main-section{
     color: white;
     padding: 20px;
-    height: 800px;
+    height: 650px;
     background-color: #1b1b1bfd;
 }
 .line{
@@ -120,7 +122,11 @@ apos adicionar as linhas tive dificuldade de separar os 3 elementos entao tive q
   'wght' 400,
   'GRAD' 0,
   'opsz' 48;
+  color: white;
 
+}
+.material-symbols-outlined:hover{
+    color: rgb(79, 43, 112);
 }
 
 #education-section{
