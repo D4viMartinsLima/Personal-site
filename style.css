@@ -150,11 +150,13 @@ apos adicionar as linhas tive dificuldade de separar os 3 elementos entao tive q
 #about-me > h1{
     font-size: 50px;
 }
+/* see if its really necessary to use this bar */
+/* actually next commit Ill probably change it, Ill let this bar here static and tomorrow Ill add a dinamic one in the read more hover */
 #about-me > .line{
     width: 100px;
     height: 2px;
     background-color: rgb(62, 14, 107);
-    transition: transform 0,4s ease;
+    transition: transform 0,7s ease;
     border: 10px;
 }
 #about-me >.line:hover{
@@ -167,7 +169,13 @@ apos adicionar as linhas tive dificuldade de separar os 3 elementos entao tive q
     padding: 20px;
 }
 #read-more-button{
-
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    transition: color 0.4s ease-out;
+}
+#read-more-button:hover{
+ color: rgb(77, 36, 116);
 }
 footer{
     background-color: #1b1b1bfd;
