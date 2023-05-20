@@ -11,10 +11,11 @@ html{
     scroll-snap-destination: 50% 100%;
     scroll-snap-points-y: repeat(100%); */
 }
+/* mudar cor dos hover para branco */
 header{
     background-color: #141414;
     height: 60px;
-    border-bottom: rgb(49, 11, 85) solid 3px ;
+    border-bottom: rgb(49, 11, 85) solid 1px ;
     box-shadow: 0px 2px 10px 1px rgba(49, 11, 85, 0.8);
 }
  nav > div > a{
@@ -118,7 +119,9 @@ apos adicionar as linhas tive dificuldade de separar os 3 elementos entao tive q
   } 
 .button > .material-symbols-outlined{
   font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 48;
+  transform: transition color 0.4s ease;
 }
+
 .saiba-mais{
     display: flex;
     flex-direction: column;
@@ -129,13 +132,17 @@ apos adicionar as linhas tive dificuldade de separar os 3 elementos entao tive q
     padding: 50px;
     font-family: 'Montserrat Alternates', sans-serif;
 }
-.saibamais > .material-symbols-outlined{
+.saiba-mais > .material-symbols-outlined{
   font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 48;
   color: white;
 
 }
-.saibamais > .material-symbols-outlined:hover{
+/* something new */
+.saiba-mais > a:hover .material-symbols-outlined{
     color: rgb(79, 43, 112);
+}
+.saiba-mais > a:active .material-symbols-outlined{
+    color: rgba(79, 43, 112, 0.7);
 }
 #about-me{
     height: 750px;
