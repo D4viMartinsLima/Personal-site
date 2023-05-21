@@ -32,13 +32,13 @@ header{
 }
 /* something new */
 nav> div > a:hover{
-    color:  rgb(62, 14, 107);
+    color:  rgb(237, 234, 240);
     transform: scale(1.2);
 }
-/* I tried to do this by myself perhaps later Ill change it */
+ /* after studying more about flexbox I understood what to do here */
 .menu-item{
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: end;
 }
 #main-section{
     color: white;
