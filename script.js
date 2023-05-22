@@ -6,5 +6,5 @@ let text = 'avi Martins personal site';
 text.split('').forEach((l, index) =>{
     setTimeout(() => {
         h1Tag.innerHTML += l
-    }, 80 * index)
+    }, 120 * index)
 })
