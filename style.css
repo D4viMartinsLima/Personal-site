@@ -66,7 +66,8 @@ nav> div > a:hover{
 }
 .main-bio {
     font-family: 'Montserrat Alternates', sans-serif;
-    padding: 90px;
+    padding-top: 90px;
+    padding-bottom: 90px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -158,14 +159,12 @@ apos adicionar as linhas tive dificuldade de separar os 3 elementos entao tive q
     font-size: 50px;
 }
 #about-me > .line{
-    width: 100px;
+    width: 150px;
     height: 2px;
     background-color: rgb(62, 14, 107);
-    background-color: rgb(190, 150, 228);
     transition: transform 0,7s ease;
     border: 10px;
 }
-later ill try to
 /* later ill try to add some animation too this bar, so thataa the first time it appears itll decrease its width */
 /* #about-me >.line:hover{
     width: 200px;
@@ -177,7 +176,9 @@ later ill try to
     text-align: justify;
     padding: 20px;
 }
-#read-more-button{
+#read-more-container{
+    display: flex;
+    align-items: center;
     text-decoration: none;
     font-size: 25px;
     border-top: 20px;
@@ -186,8 +187,8 @@ later ill try to
     transition: color 0.4s ease-out;
     transition: transform 0.4s ease;
 }
-#read-more-button:hover{
- color: rgb(77, 36, 116);
+#read-more-container:hover{
+ /* color: rgb(77, 36, 116); */
  color: white;
  transform: scale(1.2);
 }
@@ -196,3 +197,20 @@ footer{
     height: 100px;
 }
  
+/* animação h1 */
+/* something new */
+
+.main-bio > h1::after{
+    content:'|';
+    animation: blink 1s infinite
+}
+
+@keyframes blink{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0 ;
+    }
+
+}
