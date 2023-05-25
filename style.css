@@ -6,10 +6,9 @@
 /* something new */
 html{
     scroll-behavior: smooth;
-    /* estava tentando fazer com que o scroll ficasse mais lento porem n consegui, vou tentar estudar isso melhor depois */
-    /* scroll-snap-type: y mandatory;
-    scroll-snap-destination: 50% 100%;
-    scroll-snap-points-y: repeat(100%); */
+     /* overflow-y: scroll;  Habilita o scroll vertical 
+    scrollbar-width: thin;  Espessura da barra de scroll 
+    scrollbar-color: #961414 #F5Frgb(173, 22, 22) Cor da barra de scroll */ 
 }
 /* mudar cor dos hover para branco */
 header{
@@ -194,9 +193,14 @@ apos adicionar as linhas tive dificuldade de separar os 3 elementos entao tive q
 }
 footer{
     background-color: #1b1b1bfd;
-    height: 100px;
+    display: flex;
+    height: 40px;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+   
 }
- 
+
 /* animação h1 */
 /* something new */
 
@@ -214,3 +218,6 @@ footer{
     }
 
 }
+
+
+
