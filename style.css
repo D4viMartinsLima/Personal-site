@@ -43,8 +43,11 @@ nav> div > a:hover{
 #main-section{
     color: white;
     padding: 20px;
-    height: 650px;
-    background-color: #1b1b1bfd;
+    height: 100vh;
+    max-width: 100%;
+    background-image:url(polygon-scatter-haikei.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .line{
     width: 550px;
