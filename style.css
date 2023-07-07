@@ -149,7 +149,7 @@ nav> div > a:hover{
     color: rgba(79, 43, 112, 0.7);
 }
 #about-me{
-    height: 650px;
+    height: 100%;
     background-color: #141414 ;
     font-family: 'Montserrat Alternates', sans-serif;
     color: white;
@@ -171,14 +171,16 @@ nav> div > a:hover{
     transition: transform 0,7s ease;
     border: 10px;
 }
-#about-me > p{
+.container-about-me> p{
     font-size: 25px;
     text-align: justify;
+    justify-content: center;
     padding: 20px;
 }
 #read-more-container{
     display: flex;
     align-items: center;
+    justify-content: center;
     text-decoration: none;
     font-size: 25px;
     margin-top: 30px;
@@ -232,20 +234,3 @@ footer{
     }
 
 }
-@media(min-width:319px) and (max-width: 480px){
-    header{
-        height: 40px;
-    }
-    #main-section{
-        height: 100%;
-    }
-    .main-bio > h1{
-        font-size: 20px;
-    }
-    #main-section > h3{
-        flex-wrap: wrap;
-    }
-
-}
-
-
