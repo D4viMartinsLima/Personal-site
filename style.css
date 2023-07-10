@@ -181,6 +181,10 @@ nav> div > a:hover{
     justify-content: center;
     padding: 20px;
 }
+.button-wrapper{
+    display:flex;
+    justify-content: center;
+}
 #read-more-container{
     display: flex;
     align-items: center;
@@ -192,6 +196,7 @@ nav> div > a:hover{
     color: white;
     transition: color 0.4s ease-out;
     transition: transform 0.4s ease;
+    width:fit-content;
 }
 #read-more-container:hover{
  color: white;
