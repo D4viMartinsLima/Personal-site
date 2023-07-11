@@ -166,12 +166,35 @@ main{
     width: fit;
 }
 
+.cor-cinza-escura{
+    color: #5a5959;
+}
 .card-customizado{
     background-color:rgb(17, 29, 47);
     height: 250px;
 }
 
+.back-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.btn:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #001a40;
+    border-color: var(--bs-btn-hover-border-color);
+}
+.customized-button{
+    background-color: #101d30;
+}
+.footer-customizado{
+    padding-right: 60px;
+    width: 100%;
+    border-top: rgb(17, 29, 47) solid 3px;
+    background-color: #1b1b1bfd;
+}
+
 .background-azul-claro{
     background-color: 	rgb(68, 138, 201);
 }
-
