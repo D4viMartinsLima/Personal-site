@@ -177,13 +177,17 @@ main{
 .back-button{
     display: flex;
     align-items: center;
+    padding: 10px;
     justify-content: center;
     margin-bottom: 60px;
+    transform: transition color 0.4s ease;
 }
 .btn:hover {
     color: var(--bs-btn-hover-color);
     background-color: #001a40;
+    transform: scale(1.2);
     border-color: var(--bs-btn-hover-border-color);
+    
 }
 .customized-button{
     background-color: #101d30;
