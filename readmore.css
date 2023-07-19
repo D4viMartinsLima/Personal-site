@@ -179,17 +179,17 @@ main{
     padding: 10px;
     justify-content: center;
     margin-bottom: 60px;
-    transform: transition color 0.4s ease;
 }
-.btn:hover {
-    color: var(--bs-btn-hover-color);
+.customized-button:hover {
     background-color: #001a40;
     transform: scale(1.2);
-    border-color: var(--bs-btn-hover-border-color);
-    
+}
+.customized-button:active{
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
 .customized-button{
     background-color: #101d30;
+    transition: transform 0.5s ease;
 }
 .footer-customizado{
     padding-right: 60px;
